@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# real dataset is large - never commit it, only the placeholder README
+data/chest_xray/
+data/dummy_xray/
+
+# trained weights / generated artifacts
+outputs/*.pt
+outputs/*.png
+outputs/*.json
+!outputs/.gitkeep
