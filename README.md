@@ -87,16 +87,6 @@ python src/gradcam.py --data-dir data/chest_xray --checkpoint outputs/best_model
 baselines on this dataset land around 92-96% test accuracy / 0.96+ recall on
 `PNEUMONIA` with a fine-tuned ResNet-18.)*
 
-## Why this problem (interview framing)
-
-Centene's public AI/ML work centers on predictive analytics for population health —
-programs like their readmission-reduction model and at-risk member outreach exist to
-catch preventable, costly hospital events early, for a Medicaid/Medicare population
-where earlier intervention matters most. Pneumonia is a leading cause of preventable
-pediatric hospitalization, so a low-cost imaging triage model that flags likely-positive
-X-rays for faster review sits squarely in that same "catch it earlier, cheaper" pattern
-— it's a reasonable, honestly-argued fit for a data science interview at a company like
-this, without claiming it's software Centene actually built or runs.
 
 ## Limitations & future work
 
